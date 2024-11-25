@@ -5,6 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<x-social-meta
+		    title="Markaz Imam Nawawi"
+		    description="Pesantren Tahfidzul Qur’an Markaz Imam Nawawi Bulukumba adalah sebuah lembaga pendidikan Khusus Tahfidzul Qur’an setingkat SMP, SMA didirikan pada tahun 2018"
+		    image="{{ asset('favicon/android-chrome-512x512.png') }}"
+		/>
+
 		<title>
 			@hasSection('title')
 				@yield('title') |
@@ -114,7 +120,7 @@
 					<section class="md:col-span-3 prose">
 						<p>
 							Pesantren Tahfidzul Qur’an <strong>Markaz Imam Nawawi</strong> Bulukumba adalah sebuah lembaga pendidikan
-							Khusus Tahfidzul Qur’an setingkat ,SMP, SMA didirikan pada tahun 2018 dan berkedudukan
+							Khusus Tahfidzul Qur’an setingkat SMP, SMA didirikan pada tahun 2018 dan berkedudukan
 							di Kabupaten Bulukumba.
 						</p>
 
